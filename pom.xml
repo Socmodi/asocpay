@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.asocpay</groupId>
+    <artifactId>asocpay-root</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>cashier</module>
+        <module>tradecore</module>
+        <module>accountcore</module>
+        <module>paygateway</module>
+        <module>paycore</module>
+        <module>payroute</module>
+        <module>bookkeeper</module>
+        <module>checkcore</module>
+    </modules>
+    <packaging>pom</packaging>
+
+
+</project>

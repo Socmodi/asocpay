@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>asocpay-root</artifactId>
+        <groupId>org.asocpay</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>cashier</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>biz/cashier-biz</module>
+        <module>biz/cashier-facade</module>
+        <module>biz/cashier-integration</module>
+        <module>dal/cashier-dal</module>
+        <module>model/cashier-model</module>
+        <module>tools/cashier-common</module>
+        <module>tools/cashier-deploy</module>
+    </modules>
+    <dependencies>
+        <!-- spring监控-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-actuator</artifactId>
+            <version>1.3.0.RELEASE</version>
+        </dependency>
+    </dependencies>
+
+
+</project>
