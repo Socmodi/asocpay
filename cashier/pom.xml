@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cashier</artifactId>
+    <artifactId>cashier-root</artifactId>
     <packaging>pom</packaging>
     <modules>
         <module>biz/cashier-biz</module>

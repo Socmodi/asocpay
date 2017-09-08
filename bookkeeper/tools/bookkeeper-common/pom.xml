@@ -3,22 +3,15 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>asocpay-root</artifactId>
-        <groupId>org.asocpay</groupId>
+        <artifactId>bookkeeper-root</artifactId>
+        <groupId>org.asocpay.bookkeeper</groupId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.asocpay.bookkeeper</groupId>
-    <artifactId>bookkeeper-root</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>biz/bookkeeper-biz</module>
-        <module>biz/bookkeeper-facade</module>
-        <module>model/bookkeeper-model</module>
-        <module>tools/bookkeeper-common</module>
-        <module>tools/bookkeeper-deploy</module>
-    </modules>
+    <artifactId>bookkeeper-common</artifactId>
 
 
 </project>

@@ -12,6 +12,15 @@
     <groupId>org.asocpay.accountcore</groupId>
     <artifactId>accountcore-root</artifactId>
     <packaging>pom</packaging>
+    <modules>
+        <module>biz/accountcore-biz</module>
+        <module>biz/accountcore-facade</module>
+        <module>biz/accountcore-integration</module>
+        <module>dal/accountcore-dal</module>
+        <module>model/accountcore-model</module>
+        <module>tools/accountcore-common</module>
+        <module>tools/accountcore-deploy</module>
+    </modules>
 
 
 </project>
