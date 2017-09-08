@@ -12,6 +12,15 @@
     <groupId>org.asocpay.paycore</groupId>
     <artifactId>paycore-root</artifactId>
     <packaging>pom</packaging>
+    <modules>
+        <module>biz/paycore-biz</module>
+        <module>biz/paycore-facade</module>
+        <module>biz/paycore-integration</module>
+        <module>dal/paycore-dal</module>
+        <module>model/paycore-model</module>
+        <module>tools/paycore-deploy</module>
+        <module>tools/paycore-common</module>
+    </modules>
 
 
 </project>

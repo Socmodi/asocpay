@@ -12,5 +12,14 @@
     <groupId>org.asocpay.checkcore</groupId>
     <artifactId>checkcore-root</artifactId>
     <packaging>pom</packaging>
+    <modules>
+        <module>biz/checkcore-biz</module>
+        <module>biz/checkcore-facade</module>
+        <module>biz/checkcore-integration</module>
+        <module>dal/checkcore-dal</module>
+        <module>model/checkcore-model</module>
+        <module>tools/checkcore-common</module>
+        <module>tools/checkcore-deploy</module>
+    </modules>
 
 </project>

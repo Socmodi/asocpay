@@ -12,6 +12,15 @@
     <groupId>org.asocpay.payroute</groupId>
     <artifactId>payroute-root</artifactId>
     <packaging>pom</packaging>
+    <modules>
+        <module>biz/payroute-biz</module>
+        <module>biz/payroute-facade</module>
+        <module>biz/payroute-integration</module>
+        <module>dal/payroute-dal</module>
+        <module>model/payroute-model</module>
+        <module>tools/payroute-deploy</module>
+        <module>tools/payroute-common</module>
+    </modules>
 
 
 </project>

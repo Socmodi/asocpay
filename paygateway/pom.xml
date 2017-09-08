@@ -12,5 +12,14 @@
     <groupId>org.asocpay.paygateway</groupId>
     <artifactId>paygateway-root</artifactId>
     <packaging>pom</packaging>
+    <modules>
+        <module>biz/paygateway-biz</module>
+        <module>biz/paygateway-facade</module>
+        <module>biz/paygateway-integration</module>
+        <module>dal/paygateway-dal</module>
+        <module>model/paygateway-model</module>
+        <module>tools/paygateway-deploy</module>
+        <module>tools/paygateway-common</module>
+    </modules>
 
 </project>
